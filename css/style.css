@@ -1,0 +1,65 @@
+article > header > div > img{
+    max-height: 200px;
+}
+
+aside > section > ul > li > img{
+    width: 50px;
+    float: left;
+    margin-right: 5px;
+}
+
+.page-header {
+    background-image: url("../res/concert.jpg");
+    background-position: 0% 85%;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+}
+
+.navbar {
+    background-color: #343a40bb;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 0;
+    margin-left: 12%;
+    width: 75%;
+}
+
+.blog-header-logo:hover {
+    text-decoration: none;
+    color: red!important;
+}
+
+a.text-light:focus {
+    color: #f8f9fa!important;
+}
+
+a.text-light:hover {
+    color: #cbd3da!important;
+}
+
+.blog-header-logo > sub {
+    font-weight: 900;
+}
+
+a.hover {
+    color: #0056b3!important;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+    .eventimg {
+      float: none;
+      max-width: 100%;
+      margin-bottom: 5%;
+    }
+}  
+
+@media screen and (min-width: 768px) {
+    .eventimg {
+    max-width: 60%; 
+    height: fit-content; 
+    float: right;
+    }
+}
